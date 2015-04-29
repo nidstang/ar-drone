@@ -1,7 +1,7 @@
 (define-structure speed/position index invert)
 
 (define command/header "AT*")
-(define command/config "CONFIG")
+(define command/config "CONFIG=")
 (define command/action "REF=")
 (define command/pcmd "PCMD=")
 

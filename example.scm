@@ -2,7 +2,7 @@
 (load "udp-control.scm")
 
 ; Altitude max set to 2 meters
-(send-commands (create-altitudemax-command 2))
+(print (create-altitudemax-command 2))
 
 
 ; Set action for drone takeoff

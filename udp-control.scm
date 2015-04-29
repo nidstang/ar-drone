@@ -1,5 +1,5 @@
-(load "gamsock/gamsock.o1")
-(load "configuration.scm")
+(load "ar-drone/gamsock/gamsock.o1")
+(load "ar-drone/configuration.scm")
 (load (spheres/string u8vector))
 
 (define-structure connection socket inaddr)

@@ -1,4 +1,4 @@
-(load "constants.scm")
+(load "ar-drone/constants.scm")
 
 (define sequence 0)
 
